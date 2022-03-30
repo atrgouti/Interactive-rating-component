@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+
+}
+.todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.container{
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    border-radius: 20px;
+    font-family: 'Overpass';
+}
+.container h1, p, h4, button{
+    padding-top: 20px;
+}
+.container .logo img{
+    background-color: hsl(213, 6%, 31%);
+    padding: 10px;
+    border-radius: 50%;
+}
+.container h1{
+    color: white;
+}
+.container p{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+.Numbers{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.Numbers button{
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: 0;
+    background-color: hsl(213, 6%, 31%);
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 15px;
+}
+.container .btn{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.container .btn:hover{
+    background-color: white;
+    color: orange;
+    transition: 0.3s ease;
+}
+.Numbers button:focus{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.Numbers button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+/* .sec-2{
+    height: 340px;
+    width: 374.1px;
+    background-color: green;
+    position: absolute;
+    top: 24%;
+    left: 36.3%;
+    border-radius: 20px;
+} */
+.sec-2{
+    height: 340px;
+    width: 374.1px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Overpass';
+    font-size: 15px;
+}
+.sec-2 img, .orange , .thanks{
+    padding: 10px ;
+}
+.sec-2 img{
+    height: 35%;
+}
+.sec-2 .thanks{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.sec-2 .para{
+    color: white;
+}
+.sec-2 .orange{
+    background-color: hsl(213, 6%, 31%);
+    border-radius: 20px;
+    padding: 7px 15px;
+    color: orange;
+    margin-top: 15px;
+}
+.sec-2 .thanks{
+    position: relative;
+    top: 15px;
+}
+.sec-2{
+    display: none;
+}
